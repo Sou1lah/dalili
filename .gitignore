@@ -1,3 +1,8 @@
 .env
 .env.*
 !.env.example
+
+# Local tooling and generated APKs
+.copilot-temporary-working-directory
+/Dalili.apk
+/dist/

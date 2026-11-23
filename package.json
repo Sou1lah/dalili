@@ -1,0 +1,14 @@
+{
+  "name": "dalili",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "android": "bash scripts/android.sh",
+    "apk": "bash scripts/build-apk.sh",
+    "android:install": "bash scripts/install-apk.sh",
+    "android:logs": "adb logcat",
+    "android:stop": "adb emu kill",
+    "test": "cd mobile && flutter test",
+    "doctor": "flutter doctor -v"
+  }
+}
